@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about_section {
+    padding: 0 5vw;
+}
+
+.about_section_content {
+    width: 45vw;
+}
+
+.text1 {
+    font-size: 2.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.text2 {
+    font-size: 3vw;
+}
+
+.text3 {
+    font-size: 1.2vw;
+}
+
+.foto {
+    padding: 2vw 0;
+}
+
+.foto img {
+    width:  55vw;
+}
+
+.detail, .skills_hobbies {
+    width: 50vw;
+}
+
+.education {
+    width: 80vw;
+}
