@@ -14,7 +14,7 @@
                 <a class = "textBut md:mr-10 mr-5" href="">Jasons</a>
                 <a class = "textBut md:mr-10 mr-5" href="">Matthew</a>
                 <a class = "textBut md:mr-10 mr-5" href="">Vieren</a>
-                <a class = "textBut" href="">Vika</a>
+                <a class = "textBut" href="/vika">Vika</a>
             </div>
 
         </div>
