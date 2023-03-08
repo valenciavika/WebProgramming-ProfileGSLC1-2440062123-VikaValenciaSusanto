@@ -11,48 +11,48 @@
         <div class ="navbar flex items-center justify-between sm:mx-10 mx-5">
             <h2 class = "text2 font-bold font-serif text-slate-900">PROFILE</h2>
             <div class = "button py-5 font-bold font-serif text-slate-900">
-                <a class = "textBut md:mr-10 mr-5" href="">Jasons</a>
+                <a class = "textBut md:mr-10 mr-5" href="\">Jasons</a>
                 <a class = "textBut md:mr-10 mr-5" href="">Matthew</a>
-                <a class = "textBut md:mr-10 mr-5" href="/vieren">Vieren</a>
+                <a class = "textBut md:mr-10 mr-5" href="">Vieren</a>
                 <a class = "textBut" href="/vika">Vika</a>
             </div>
 
         </div>
-        <div class="about_section bg-slate-900 flex">
+        <div class="about_section bg-rose-900 flex">
             <div class="about_section_content text-white flex items-center justify-center">
                 <div class="text_content">
                     <h1 class="text1 font-bold font-serif">Hello,</h1>
-                    <h2 class="text2 font-serif font-light">I'm Jasons Januard</h2>
+                    <h2 class="text2 font-serif font-light">I'm Vieren Cristian</h2>
                 </div>
             </div>
             <div class="foto">
-                <img src="{{url('/images/foto.png')}}" alt="">
+                <img src="{{url('/images/fotovieren.png')}}" alt="">
             </div>
         </div>
         <div class="about_me_section">
-            <div class="bg-slate-700 sm:py-24 py-10">
+            <div class="bg-rose-700 sm:py-24 py-10">
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
                     <div class="mx-auto">
                         <h2 class="text2 font-bold font-serif text-white text-center">About Me</h2>
-                        <p class="text3 font-serif font-light py-6 text-lg text-white text-center">You can call me Jeje, I'm from Indonesia living in Jakarta. Dedicated Computer Science student with the ability to work well with others. Interested both in Front-end and Back-end development. Motivated to learn something new when solving problems.  Able to self-manage during independent projects and collaborate as part of a team.</p>
+                        <p class="text3 font-serif font-light py-6 text-lg text-white text-center">You can call me Vieren. I am passionate about data analysis and have additional skills in web development and design as well. My strong soft skills in flexibility, teamwork, and adaptability allow me to collaborate effectively, adapt to changes, and achieve success in dynamic environments.</p>
                     </div>
 
                 </div>
             </div>
         </div>
-        <div class="profile_section bg-slate-500">
+        <div class="profile_section bg-rose-600">
             <div class="profile_section_content">
                 <div class="overflow-hidden shadow flex sm:p-10 p-5">
                     <div class="detail text3 items-center">
-                        <div class="bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 sm:gap-4 sm:px-6 rounded-t-2xl">
+                        <div class="bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 sm:gap-4 sm:px-6 rounded-t-2xl">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">Full name</dt>
-                            <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">Jasons Januard Bongtari</dd>
+                            <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">Vieren Cristian</dd>
                         </div>
                         <div class="bg-white px-4 sm:py-5 py-3 grid grid-cols-2 sm:gap-4 sm:px-6">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">Gender</dt>
-                            <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">Male</dd>
+                            <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">Female</dd>
                         </div>
-                        <div class="bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 sm:gap-4 sm:px-6">
+                        <div class="bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 sm:gap-4 sm:px-6">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">Date of birth</dt>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">16 January 2002</dd>
                         </div>
@@ -60,26 +60,26 @@
                             <dt class="font-serif font-medium text-slate-500 flex items-center">Place of birth</dt>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">Jakarta, Indonesia</dd>
                         </div>
-                        <div class="bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 sm:gap-4 sm:px-6">
+                        <div class="bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 sm:gap-4 sm:px-6">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">Email address</dt>
-                            <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">jejebe112@gmail.com</dd>
+                            <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">vierencristian16@gmail.com</dd>
                         </div>
                         <div class="bg-white px-4 sm:py-5 py-3 grid grid-cols-2 sm:gap-4 sm:px-6 rounded-b-2xl">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">Phone number</dt>
-                            <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">+62 818 0123 4567</dd>
+                            <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">+62 816 880 516</dd>
                         </div>
                     </div>
                     <div class="text3 skills_hobbies sm:pl-10 h-full pl-5 self-center">
-                        <div class="bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-4 sm:gap-4 sm:px-6 rounded-t-2xl">
+                        <div class="bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-4 sm:gap-4 sm:px-6 rounded-t-2xl">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">Soft Skills</dt>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">
-                                <p>Team work</p>
+                                <p>Flexibility</p>
                             </dd>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">
-                                <p>Time management</p>
+                                <p>Teamwork</p>
                             </dd>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">
-                                <p>Perseverence</p>
+                                <p>Adaptability</p>
                             </dd>
                         </div>
                         <div class="bg-white px-4 sm:py-5 py-3 grid grid-cols-4 sm:gap-4 sm:px-6">
@@ -88,22 +88,22 @@
                                 <p>HTML</p>
                             </dd>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">
-                                <p>Javascript</p>
+                                <p>R</p>
                             </dd>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">
-                                <p>CSS</p>
+                                <p>SQL</p>
                             </dd>
                         </div>
-                        <div class="bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-4 sm:gap-4 sm:px-6 rounded-b-2xl">
+                        <div class="bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-4 sm:gap-4 sm:px-6 rounded-b-2xl">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">Hobbies</dt>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">
-                                <p>Tennis</p>                              
+                                <p>Basketball</p>                              
                             </dd>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">
-                                <p>Swim</p> 
+                                <p>Watching Movies</p> 
                             </dd>
                             <dd class="font-serif text-slate-900 sm:mt-0 flex items-center">
-                                <p>Volleyball</p>
+                                <p>Photography</p>
                             </dd>
                         </div>
                     </div>
@@ -129,27 +129,27 @@
                     </div>
                     <div class="border-t">
                         <dl>
-                            <div class="education bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
+                            <div class="education bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
                                 <dt class="font-serif font-medium text-slate-500 flex items-center">2020, Odd Semester</dt>
-                                <dd class="font-serif text-slate-900 flex item-center">Algorithm and Programming</dd>
+                                <dd class="font-serif text-slate-900 flex item-center">Calculus</dd>
                             </div>
-                            <div class="education bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
+                            <div class="education bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
                                 <dt class="font-serif font-medium text-slate-500 flex items-center">2020, Even Semester</dt>
                                 <dd class="font-serif text-slate-900 flex item-center ">Data Structure</dd>
                             </div>
-                            <div class="education bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
+                            <div class="education bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">2021, Odd Semester</dt>
-                                <dd class="font-serif text-slate-900 flex item-center ">Object Oriented Programming</dd>
+                                <dd class="font-serif text-slate-900 flex item-center ">Program Design Methods</dd>
                             </div>
-                            <div class="education bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
+                            <div class="education bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">2021, Even Semester</dt>
-                                <dd class="font-serif text-slate-900 flex item-center ">Database</dd>
+                                <dd class="font-serif text-slate-900 flex item-center ">Non Parametric Statistics</dd>
                             </div>
-                            <div class="education bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
+                            <div class="education bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">2022, Odd Semester</dt>
-                                <dd class="font-serif text-slate-900 flex item-center ">Deep Learning</dd>
+                                <dd class="font-serif text-slate-900 flex item-center ">Categorical Data Analysis</dd>
                             </div>
-                            <div class="education bg-gray-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
+                            <div class="education bg-rose-50 px-4 sm:py-5 py-3 grid grid-cols-2 gap-4 sm:px-6">
                             <dt class="font-serif font-medium text-slate-500 flex items-center">2022, Even Semester</dt>
                                 <dd class="font-serif text-slate-900 flex item-center">Web Programming</dd>
                             </div>

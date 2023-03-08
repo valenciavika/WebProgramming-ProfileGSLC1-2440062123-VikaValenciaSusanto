@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/vika', function () {
     return view('vika');
 });
+
+Route::get('/vieren', function () {
+    return view('vieren');
+});
