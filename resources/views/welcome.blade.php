@@ -8,16 +8,20 @@
         <title>Profile</title>
     </head>
     <body>
-        <div class ="navbar flex items-center justify-between sm:mx-10 mx-5">
-            <h2 class = "text2 font-bold font-serif text-slate-900">PROFILE</h2>
-            <div class = "button py-5 font-bold font-serif text-slate-900">
-                <a class = "textBut md:mr-10 mr-5" href="">Jasons</a>
+        <div class ="navbar flex items-center justify-between sticky top-0 z-40 bg-white">
+            <h2 class = "text4 font-bold font-serif text-slate-900">PROFILE</h2>
+            
+            <input type="checkbox" class="check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+
+            <div class = "button font-bold font-serif text-slate-900 flex">
+                <a class = "textBut md:mr-10 mr-5" href="\">Jasons</a>
                 <a class = "textBut md:mr-10 mr-5" href="">Matthew</a>
                 <a class = "textBut md:mr-10 mr-5" href="/vieren">Vieren</a>
                 <a class = "textBut" href="/vika">Vika</a>
             </div>
-
         </div>
+
         <div class="about_section bg-slate-900 flex">
             <div class="about_section_content text-white flex items-center justify-center">
                 <div class="text_content">
@@ -34,9 +38,8 @@
                 <div class="mx-auto max-w-7xl px-6 lg:px-8">
                     <div class="mx-auto">
                         <h2 class="text2 font-bold font-serif text-white text-center">About Me</h2>
-                        <p class="text3 font-serif font-light py-6 text-lg text-white text-center">You can call me Jeje, I'm from Indonesia living in Jakarta. Dedicated Computer Science student with the ability to work well with others. Interested both in Front-end and Back-end development. Motivated to learn something new when solving problems.  Able to self-manage during independent projects and collaborate as part of a team.</p>
+                        <p class="text3 font-serif font-light py-6 text-white text-center">You can call me Jeje, I'm from Indonesia living in Jakarta. Dedicated Computer Science student with the ability to work well with others. Interested both in Front-end and Back-end development. Motivated to learn something new when solving problems.  Able to self-manage during independent projects and collaborate as part of a team.</p>
                     </div>
-
                 </div>
             </div>
         </div>

@@ -8,15 +8,18 @@
         <title>Profile</title>
     </head>
     <body>
-        <div class ="navbar flex items-center justify-between sm:mx-10 mx-5">
-            <h2 class = "text2 font-bold font-serif text-gray-900">PROFILE</h2>
-            <div class = "button py-5 font-bold font-serif text-gray-900">
+    <div class ="navbar flex items-center justify-between sticky top-0 z-40 bg-white">
+            <h2 class = "text4 font-bold font-serif text-slate-900">PROFILE</h2>
+            
+            <input type="checkbox" class="check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+
+            <div class = "button font-bold font-serif text-slate-900 flex">
                 <a class = "textBut md:mr-10 mr-5" href="\">Jasons</a>
                 <a class = "textBut md:mr-10 mr-5" href="">Matthew</a>
                 <a class = "textBut md:mr-10 mr-5" href="/vieren">Vieren</a>
-                <a class = "textBut" href="">Vika</a>
+                <a class = "textBut" href="/vika">Vika</a>
             </div>
-
         </div>
         <div class="about_section bg-gray-900 flex">
             <div class="about_section_content text-white flex items-center justify-center">
