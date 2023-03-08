@@ -8,7 +8,12 @@
 </p>
 
 Description:
-Profile dibuat dengan menggunakan CSS framework Tailwind. Di dalamnya sudah terdapat media query yang dibuat sendiri dan juga dari framework tersebut. 
+Profile dibuat dengan menggunakan CSS framework Tailwind. Di dalamnya sudah terdapat media query yang dibuat sendiri dan juga dari framework tailwind tersebut. 
+
+Pastikan vite sudah terinstall dan juga sudah dijalankan:
+- vite install
+- npm run dev
+
 
 Untuk menjalankan project ini, jika langsung diclone mungkin akan menyebabkan error pada saat menjalankan "php artisan serve". Berikut penyelesaian dari error tersebut.
 - composer install 
