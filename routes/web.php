@@ -24,3 +24,7 @@ Route::get('/vika', function () {
 Route::get('/vieren', function () {
     return view('vieren');
 });
+
+Route::get('/matt', function () {
+    return view('matt');
+});
