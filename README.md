@@ -9,9 +9,14 @@ Code lama diclone dan dipindahkan ke repository saya sendiri, sehingga contribut
     Setiap page akan melakukan @extends('template') untuk mengikuti struktur yang sudah dibuat pada template.blade.php
     Template berisi section header dan konten. Header diinclude dari header.blade.php (@include('header')) dan diyield untuk nama profilenya (@yield('judul_halaman')). Konten merupakan yield yang akan diisi sendiri di masing-masing page (@yield('konten')).
 - Penambahan conditional rendering (switch case)
-    Ada penambahan fitur yaitu hire person agar user yang berinteraksi dengan web bisa menghire kami menjadi employeenya. Switch case di sini digunakan pada friend.blade.php untuk mengubah data tergantung dari orang yang dihire.
+    Ada penambahan fitur yaitu hire person agar user yang berinteraksi dengan web bisa menghire kami menjadi employeenya. Switch case di sini digunakan pada friend.blade.php untuk mengubah data tergantung dari orang yang dihire atau idnya sehingga page akan diforward ke halaman hire (/friend/{id}).
 - Penambahan loop rendering (foreach)
-    Pada halaman hire (friend\{id}), jika user setuju untuk menghire orang tersebut dan meng-klik button yes, akan muncul pop-up notification berisi ucapan terima kasih, nama panggilan, dan nomor telepon untuk dikontak. Nama panggilan dan nomor telepon ini merupakan data yang ada di namecontroller.php. Untuk setiap orang, nama dan nomor telepon pasti berbeda-beda, sehingga loop diaplikasikan (foreach) untuk mencocokan key dari data setiap orang pada namecontroller.php dengan id pada webnya (di sini diaplikasikan juga conditional rendering yaitu if) sehingga nama dan nomor telepon yang ditampilkan benar dan sesuai.
+    Pada halaman hire (/friend/{id}), jika user setuju untuk menghire orang tersebut dan meng-klik button yes, akan muncul pop-up notification berisi ucapan terima kasih, nama panggilan, dan nomor telepon untuk dikontak. Nama panggilan dan nomor telepon ini merupakan data yang ada di namecontroller.php dan direturn pada page '/friend/{id}'. Untuk setiap orang, nama dan nomor telepon pasti berbeda-beda, sehingga loop diaplikasikan (foreach) untuk mencocokan key dari data setiap orang pada namecontroller.php dengan id pada webnya (di sini diaplikasikan juga conditional rendering yaitu if) sehingga nama dan nomor telepon yang ditampilkan benar dan sesuai.
+
+Page yang diupdate/ditambahkan
+- Semua file yang ada pada https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/tree/main/resources/views
+- https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/routes/web.php
+- https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/app/Http/Controllers/namecontroller.php
 
 Page Update Screenshots
 --------------------------------------
