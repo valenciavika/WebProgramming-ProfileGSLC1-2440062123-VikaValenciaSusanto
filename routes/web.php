@@ -28,3 +28,13 @@ Route::get('/vieren', function () {
 Route::get('/matt', function () {
     return view('matt');
 });
+
+use App\Http\Controllers\namecontroller;
+Route::get('/friend/{id}', [namecontroller::class, 'name']);
+
+
+
+
+
+
+
