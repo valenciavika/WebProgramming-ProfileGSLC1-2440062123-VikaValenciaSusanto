@@ -4,6 +4,7 @@ Assignment Web Prog 2 (LA06)
 
 Update (tugas individual)
 --------------------------------------
+Code lama diclone dan dipindahkan ke repository saya sendiri, sehingga contributor yang ada pada code lama masih tercantum, namun tugas update ini dikerjakan 100% secara individual.
 - Perombakan struktur ui dengan menggunakan reusable component tag.
     Setiap page akan melakukan @extends('template') untuk mengikuti struktur yang sudah dibuat pada template.blade.php
     Template berisi section header dan konten. Header diinclude dari header.blade.php (@include('header')) dan diyield untuk nama profilenya (@yield('judul_halaman')). Konten merupakan yield yang akan diisi sendiri di masing-masing page (@yield('konten')).
