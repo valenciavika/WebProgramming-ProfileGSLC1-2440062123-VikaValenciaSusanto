@@ -1,23 +1,76 @@
-Page Screenshots
+Nama: Vika Valencia Susanto\
+NIM: 2440062123\
+Assignment Web Prog 2 (LA06)
+
+Update (tugas individual)
+--------------------------------------
+- Perombakan struktur ui dengan menggunakan reusable component tag.
+    Setiap page akan melakukan @extends('template') untuk mengikuti struktur yang sudah dibuat pada template.blade.php
+    Template berisi section header dan konten. Header diinclude dari header.blade.php (@include('header')) dan diyield untuk nama profilenya (@yield('judul_halaman')). Konten merupakan yield yang akan diisi sendiri di masing-masing page (@yield('konten')).
+- Penambahan conditional rendering (switch case)
+    Ada penambahan fitur yaitu hire person agar user yang berinteraksi dengan web bisa menghire kami menjadi employeenya. Switch case di sini digunakan pada friend.blade.php untuk mengubah data tergantung dari orang yang dihire.
+- Penambahan loop rendering (foreach)
+    Pada halaman hire (friend\{id}), jika user setuju untuk menghire orang tersebut dan meng-klik button yes, akan muncul pop-up notification berisi ucapan terima kasih, nama panggilan, dan nomor telepon untuk dikontak. Nama panggilan dan nomor telepon ini merupakan data yang ada di namecontroller.php. Untuk setiap orang, nama dan nomor telepon pasti berbeda-beda, sehingga loop diaplikasikan (foreach) untuk mencocokan key dari data setiap orang pada namecontroller.php dengan id pada webnya (di sini diaplikasikan juga conditional rendering yaitu if) sehingga nama dan nomor telepon yang ditampilkan benar dan sesuai.
+
+Page Update Screenshots
+--------------------------------------
+
+### Jasons Update
+<div styles="display: flex">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/updateJasons.png" alt="License" style="width: 30%">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/hireJasons.png" alt="License" style="width: 30%">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/YesJasons.png" alt="License" style="width: 30%">
+</div>
+
+ 
+--------------------------------------
+
+### Matthew Update
+<div styles="display: flex">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/updateMCH.png" alt="License" style="width: 30%">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/hireMCH.png" alt="License" style="width: 30%">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/YesMCH.png" alt="License" style="width: 30%">
+</div>
+ 
+--------------------------------------
+
+### Vika Update
+<div styles="display: flex">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/updateVika.png" alt="License" style="width: 30%">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/hireVika.png" alt="License" style="width: 30%">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/YesVika.png" alt="License" style="width: 30%">
+</div>
+ 
+--------------------------------------
+
+### Vieren Update
+<div styles="display: flex">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/updateVier.png" alt="License" style="width: 30%">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/hireVier.png" alt="License" style="width: 30%">
+    <img src="https://github.com/valenciavika/WebProgramming-ProfileGSLC1-2440062123-VikaValenciaSusanto/blob/main/ssPage/update/YesVier.png" alt="License" style="width: 30%">
+</div>
+
+
+Original Page Screenshots (tugas kelompok)
 --------------------------------------
 
 ### Jasons
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageJasons.png" alt="License" style="width: 500px">
+<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageJasons.png" alt="License" style="width: 20%">
  
 --------------------------------------
 
 ### Matthew
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageMatthew.png" alt="License" style="width: 500px">
+<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageMatthew.png" alt="License" style="width: 20%">
  
 --------------------------------------
 
 ### Vika
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageVika.png" alt="License" style="width: 500px">
+<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageVika.png" alt="License" style="width: 20%">
  
 --------------------------------------
 
 ### Vieren
-<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageVieren.png" alt="License" style="width: 500px">
+<img src="https://github.com/jeje116/Web-Programming-Prototype/blob/main/ssPage/pageVieren.png" alt="License" style="width: 20%">
  
 --------------------------------------
 
@@ -37,7 +90,11 @@ Installation
 2. Pastikan vite sudah terinstall dan sudah dijalankan\
     Untuk menginstall vite
     ```
-    vite install
+    vite install 
+    ```
+    atau
+    ```
+    npm install
     ```
 
     Untuk menjalankan vite
